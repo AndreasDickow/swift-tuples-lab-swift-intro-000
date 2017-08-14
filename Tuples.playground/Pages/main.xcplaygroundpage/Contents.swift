@@ -17,7 +17,7 @@
 // write your code here
 
 
-
+var person = (name:"Tom",age:10)
 
 
 
@@ -31,7 +31,7 @@
 
 
 
-
+print("\(person.name) is \(person.age) years old")
 
 
 
@@ -40,7 +40,7 @@
  */
 // write your code here
 
-
+person.age = person.age + 1
 
 
 
@@ -56,7 +56,7 @@
 
 
 
-
+print("Happy \(person.age) birthday, \(person.name)!")
 
 
 /*: question5
@@ -66,6 +66,7 @@
 
 
 
+var person2 = (name:"Kike",age:12)
 
 
 
@@ -77,7 +78,7 @@
 // write your code here
 
 
-
+print("\(person2.name) is \(person2.age) years old")
 
 
 
@@ -89,7 +90,7 @@
 
 
 
-
+person2.age = person2.age + 1
 
 
 
@@ -100,7 +101,7 @@
 
 
 
-
+print("Happy \(person2.age) birthday, \(person2.name)!")
 
 
 
@@ -110,8 +111,7 @@
  */
 // write your code here
 
-
-
+let human = (name: "st",age: 1)
 
 
 
@@ -120,7 +120,7 @@
 /*:
  ### 10. Can you change `human`'s age? Why or why not?
  */
-
+print("\(human.age)")
 
 
 
